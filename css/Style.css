@@ -2,7 +2,7 @@
 	box-sizing: border-box;
   }
   body {
-	font-size: 14px;
+	font-size: 12px;
   }
   .container {
 	width: 100%;
@@ -52,7 +52,7 @@
 	left: 0%;
 	overflow: hidden;
   }
-  .contato {
+  .Contato {
 	width: 75px;
 	position: absolute;
 	top: 15px;
@@ -71,7 +71,7 @@
 	top: 15px;
 	left: 233px;
 	font-family: Roboto;
-	font-weight: Regular;
+	font-weight: normal;
 	font-style:  normal;
 	font-size: 18px;
 	text-align: left;
@@ -84,7 +84,7 @@
 	top: 15px;
 	left: 162px;
 	font-family: Roboto;
-	font-weight: Bold;
+	font-weight: normal;
 	font-style:  normal;
 	font-size: 18px;
 	opacity: 1;
