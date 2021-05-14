@@ -16,4 +16,10 @@ header {
 }
 body {
     background-color: #2a9d8f;
+    margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-style: normal;
+	font-weight: 200;
   }
