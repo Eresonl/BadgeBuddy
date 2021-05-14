@@ -45,7 +45,7 @@
   .navbar {
 	width: 100%;
 	height: 60px;
-	background: #1579eb;
+	background: #ffffff;
 	opacity: 1;
 	position: fixed;
 	top: 0px;
@@ -121,5 +121,17 @@
 	border-bottom-right-radius: 5px;
 	overflow: hidden;
   }
-
+  .logo {
+	width: 143px;
+	height: 90px;
+	background: url("../img/v7_80.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	opacity: 1;
+	position: absolute;
+	top: 6px;
+	left: -10px;
+	overflow: hidden;
+  }
   
