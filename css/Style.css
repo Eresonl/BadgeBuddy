@@ -1,25 +1,125 @@
-/* Navigation */
-header {
-	width: 100%;
-	height: 4%;
-	background-color: #e76f51;
-	border-bottom: 1px solid #f4a261;
-}
-.logo {
-	color: #fff;
-	font-weight: bold;
-	width: 90%;
-	float: left;
-	margin-top: 15px;
-	margin-left: 0px;
-	letter-spacing: 4px;
-}
-body {
-    background-color: #2a9d8f;
-    margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	font-style: normal;
-	font-weight: 200;
+* {
+	box-sizing: border-box;
   }
+  body {
+	font-size: 14px;
+  }
+  .container {
+	width: 100%;
+	height: 100%;
+	background: rgba(55,86,146,1);
+	opacity: 1;
+	position: relative;
+	top: 0px;
+	left: -4px;
+	overflow: hidden;
+  }
+  .v14_3 {
+	width: 828px;
+	height: 760px;
+	background: url("../img/v14_3.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	opacity: 0;
+	position: absolute;
+	top: 162px;
+	left: 551px;
+	overflow: hidden;
+  }
+  .background {
+	width: 100%;
+	height: 1011px;
+	background: url("../img/v7_75.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	opacity: 1;
+	position: absolute;
+	top: 60px;
+	left: 0px;
+	border: 1px solid rgba(55,86,146,1);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	overflow: hidden;
+  }
+  .navbar {
+	width: 100%;
+	height: 60px;
+	background: #1579eb;
+	opacity: 1;
+	position: fixed;
+	top: 0px;
+	left: 0%;
+	overflow: hidden;
+  }
+  .contato {
+	width: 75px;
+	position: absolute;
+	top: 15px;
+	left: 310px;
+	font-family: Roboto;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 18px;
+	text-align: left;
+	
+  
+  }
+  .sobre {
+	width: 70px;
+	position: absolute;
+	top: 15px;
+	left: 233px;
+	font-family: Roboto;
+	font-weight: Regular;
+	font-style:  normal;
+	font-size: 18px;
+	text-align: left;
+	
+  }
+  .inicio {
+	width: 63px;
+	color: rgba(0,0,0,1);
+	position: absolute;
+	top: 15px;
+	left: 162px;
+	font-family: Roboto;
+	font-weight: Bold;
+	font-style:  normal;
+	font-size: 18px;
+	opacity: 1;
+	text-align: left;
+  }
+  .logar-se {
+	width: px;
+	color: rgba(9,9,9,1);
+	position: absolute;
+	top: 0px;
+	left: 1815px;
+	font-family: Roboto;
+	font-size: 16px;
+	opacity: 1;
+	text-align: left;
+	opacity: 1;
+	overflow: hidden;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+  }
+  .cadastro {
+	width: 83px;
+	height: 29px;
+	background: rgba(255,255,255,1);
+	opacity: 1;
+	position: absolute;
+	top: 30px;
+	left: 1815px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	overflow: hidden;
+  }
+
+  
