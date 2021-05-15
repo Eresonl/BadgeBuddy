@@ -52,11 +52,11 @@
 	left: 0%;
 	overflow: hidden;
   }
-  .Contato {
-	width: 75px;
+  .contato {
+	width: px;
 	position: absolute;
 	top: 15px;
-	left: 310px;
+	left: 315px;
 	font-family: Roboto;
 	font-weight: normal;
 	font-style: normal;
