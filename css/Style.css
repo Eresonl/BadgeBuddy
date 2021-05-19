@@ -2,132 +2,141 @@
 	box-sizing: border-box;
   }
   body {
-	font-size: 12px;
+	font-size: 14px;
   }
-  .container {
+  .screen {
 	width: 100%;
 	height: 100%;
-	background: rgba(55,86,146,1);
 	opacity: 1;
-	position: relative;
+	position: fixed;
 	top: 0px;
-	left: -4px;
+	left: 0px;
 	overflow: hidden;
   }
-  .v14_3 {
-	width: 828px;
-	height: 760px;
-	background: url("../img/v14_3.png");
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-	opacity: 0;
-	position: absolute;
-	top: 162px;
-	left: 551px;
-	overflow: hidden;
-  }
-  .background {
+  .screencenter {
 	width: 100%;
-	height: 1011px;
-	background: url("../img/v7_75.png");
+	height: 100%;
+	background: url("../images/v7_75.png");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 	opacity: 1;
 	position: absolute;
-	top: 60px;
+	top: 63px;
 	left: 0px;
-	border: 1px solid rgba(55,86,146,1);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	overflow: hidden;
   }
   .navbar {
 	width: 100%;
-	height: 60px;
-	background: #bebdd8;
+	height: 63px;
+	background: rgba(255,255,255,1);
 	opacity: 1;
-	position: fixed;
+	position: relative;
 	top: 0px;
-	left: 0%;
+	left: 0px;
 	overflow: hidden;
   }
   .contato {
-	background-color: #000000; /* Black */
-  border: none;
-  color: rgb(255, 255, 255);
-  padding: 15px 32px;
-  text-align: right;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  }
-  .sobre {
-	background-color: #000000; /* Black */
-  border: none;
-  color: rgb(255, 255, 255);
-  padding: 15px 32px;
-  text-align: right;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  }
-  .inicio {
-	background-color: #000000; /* Black */
-  border: none;
-  color: rgb(255, 255, 255);
-  padding: 15px 32px;
-  text-align: right;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-
-  }
-  .logar-se {
-	width: px;
-	color: rgba(9,9,9,1);
+	width: 64px;
+	color: rgba(165,161,161,1);
 	position: absolute;
-	top: 0px;
-	left: 1815px;
+	top: 23px;
+	left: 316px;
 	font-family: Roboto;
-	font-size: 16px;
+	font-weight: Regular;
+	font-size: 18px;
 	opacity: 1;
 	text-align: left;
-	opacity: 1;
-	overflow: hidden;
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
-	border-bottom-left-radius: 5px;
-	border-bottom-right-radius: 5px;
+	text-decoration: none;
   }
-  .cadastro {
-	width: 83px;
-	height: 29px;
-	background: rgba(255,255,255,1);
-	opacity: 1;
+  .sobre {
+	width: 47px;
+	color: rgba(165,161,161,1);
 	position: absolute;
-	top: 30px;
-	left: 1815px;
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
-	border-bottom-left-radius: 5px;
-	border-bottom-right-radius: 5px;
-	overflow: hidden;
+	top: 23px;
+	left: 233px;
+	font-family: Roboto;
+	font-weight: Regular;
+	font-size: 18px;
+	opacity: 1;
+	text-align: left;
+	text-decoration: none;
+  }
+  .inicio {
+	width: 45px;
+	color: rgba(0,0,0,1);
+	position: absolute;
+	top: 23px;
+	left: 162px;
+	font-family: Roboto;
+	font-weight: Bold;
+	font-size: 18px;
+	opacity: 1;
+	text-align: left;
   }
   .logo {
-	width: 143px;
-	height: 90px;
-	background: url("../img/v7_80.png");
+	width: 150px;
+	height: 91px;
+	background: url("../images/v7_80.png");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 	opacity: 1;
 	position: absolute;
-	top: 6px;
-	left: -10px;
+	top: 3px;
+	left: 8px;
+	overflow: hidden;
+  }
+  .login {
+	width: 41px;
+	color: rgba(9,9,9,1);
+	position: absolute;
+	top: 30px;
+	left: 1845px;
+	font-family: Roboto;
+	font-weight: Bold;
+	font-size: 16px;
+	opacity: 1;
+	text-align: left;
+  }
+  .v7_83 {
+	width: 83px;
+	height: 29px;
+	background: rgba(255,255,255,1);
+	opacity: 1;
+	position: absolute;
+	top: 19px;
+	left: 1338px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	overflow: hidden;
+  }
+  .cadastro {
+	width: 88px;
+	color: rgba(9,9,9,1);
+	position: absolute;
+	top: 8px;
+	left: 1820px;
+	font-family: Roboto;
+	font-weight: Bold;
+	font-size: 16px;
+	opacity: 1;
+	text-align: left;
+  }
+  .logocenter {
+	width: 1050px;
+	height: 760px;
+	background: url("../images/v14_3.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	opacity: 1;
+	position: absolute;
+	top: 250px;
+	left: 950px;
 	overflow: hidden;
   }
   
