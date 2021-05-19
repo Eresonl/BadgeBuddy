@@ -139,4 +139,28 @@
 	left: 950px;
 	overflow: hidden;
   }
-  
+  .contact_title {
+   text-align: center;
+   color: #f72585;
+   font-size: 48px;
+   padding: 45px 0;
+   font-family: "Barlow", sans-serif;
+   text-transform: uppercase;
+   font-style: italic;
+   margin: 0;
+
+  }
+  .screencentercontato {
+	width: 100%;
+	height: 100%;
+	background-color: #4361ee;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	opacity: 1;
+	position: absolute;
+	top: 63px;
+	left: 0px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	overflow: hidden;
+  }
