@@ -38,7 +38,7 @@
 	overflow: hidden;
   }
   .contato {
-	width: 64px;
+	width: 47px;
 	color: rgba(165,161,161,1);
 	position: absolute;
 	top: 12px;
@@ -62,9 +62,11 @@
 	opacity: 1;
 	text-align: left;
 	text-decoration: none;
+	
+
   }
   .inicio {
-	width: 45px;
+	width: 47px;
 	color: rgba(0,0,0,1);
 	position: absolute;
 	top: 12px;
@@ -74,6 +76,7 @@
 	font-size: 18px;
 	opacity: 1;
 	text-align: left;
+	
   }
   .logo {
 	width: 130px;
