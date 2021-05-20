@@ -62,9 +62,14 @@
 	opacity: 1;
 	text-align: left;
 	text-decoration: none;
-	
-
+}
+.sobretxt{
+	color: black;
+	font-size: 14px;
+	font-family: roboto;
+	text-align: center;	
   }
+
   .inicio {
 	width: 47px;
 	color: rgba(0,0,0,1);
