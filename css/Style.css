@@ -62,13 +62,11 @@
 	opacity: 1;
 	text-align: left;
 	text-decoration: none;
-	background: url("c:\users\adria\desktop\Badgebuddy\images\v7_75_2.png");
-	background-size: cover;
 	
 }
 .sobretxt{
 	color: white;
-	font-size: 24px;
+	font-size: 48px;
 	font-family: roboto;
 	text-align: center;	
   }
@@ -76,8 +74,10 @@
   color: white;
 	font-family: roboto;
 	text-align: center;	
-	font-size: 48px;
+	font-size: 38px;
 	padding: 45px 0;
+	background: url(C:\Users\adria\Desktop\BadgeBuddy\images\v7_75_2.png);
+	background-size: cover;
   }
   .inicio {
 	width: 47px;
