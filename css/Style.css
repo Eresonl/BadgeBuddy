@@ -62,14 +62,9 @@
 	opacity: 1;
 	text-align: left;
 	text-decoration: none;
-  }
 
- .screencenter2{
-		background-image: url("../images/v7_75_2.png");
- }
-
-
-
+	
+}
 .sobretxt{
 	color: white;
 	font-size: 48px;
