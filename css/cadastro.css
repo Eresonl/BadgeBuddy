@@ -326,7 +326,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v0_33 {
+.emailcaixa {
   width: 426px;
   height: 97px;
   background: url("../images/v0_33.png");
@@ -339,7 +339,7 @@ body {
   left: 106px;
   overflow: hidden;
 }
-.v0_34 {
+.emailborder {
   width: 426px;
   height: 64px;
   background: url("../images/v0_34.png");
