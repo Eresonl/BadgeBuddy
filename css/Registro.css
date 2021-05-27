@@ -399,7 +399,7 @@ body {
   border-bottom-right-radius: 6px;
   overflow: hidden;
 }
-.symbolsenha {
+.figurasenha {
   width: 86px;
   color: rgba(133,145,165,1);
   position: absolute;
@@ -463,7 +463,7 @@ body {
   border-bottom-right-radius: 6px;
   overflow: hidden;
 }
-.v0_43 {
+.nameone {
   width: 40px;
   color: rgba(133,145,165,1);
   position: absolute;
@@ -475,7 +475,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v0_44 {
+.companyname {
   width: 171px;
   color: rgba(0,9,24,1);
   position: relative;
@@ -514,7 +514,7 @@ body {
   border-bottom-right-radius: 6px;
   overflow: hidden;
 }
-.v0_47 {
+.registerbottom {
   width: 70px;
   color: rgba(255,255,255,1);
   position: absolute;
