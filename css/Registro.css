@@ -431,6 +431,7 @@ body {
   position: absolute;
   top: 395px;
   left: 482px;
+  font-size: 14px;
 }
 .v0_41 {
   width: 426px;
@@ -536,7 +537,7 @@ body {
   left: 108px;
   border: 1px solid rgba(51,51,51,1);
 }
-.v0_49 {
+.accept {
   width: 232px;
   color: rgba(0,0,0,1);
   position: absolute;
@@ -758,7 +759,7 @@ body {
   left: 541px;
   border: 1px solid rgba(51,51,51,1);
 }
-.v0_66 {
+.accept2 {
   width: 232px;
   color: rgba(0,0,0,1);
   position: absolute;
