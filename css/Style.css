@@ -119,13 +119,13 @@
   }
   .login {
 	width: 41px;
-	color: rgba(9,9,9,1);
+	color: rgb(172, 34, 34);
 	position: absolute;
-	top: 25px;
-	left: 95%;
+	top: 12px;
+	left: 91%;
 	font-family: Roboto;
 	font-weight: Bold;
-	font-size: 16px;
+	font-size: 15px;
 	opacity: 1;
 	text-align: left;
   }
@@ -145,13 +145,13 @@
   }
   .cadastro {
 	width: 88px;
-	color: rgba(9,9,9,1);
+	color: rgb(172, 34, 34);
 	position: absolute;
-	top: 5px;
-	left: 95%;
+	top: 12px;
+	left: 94%;
 	font-family: Roboto;
 	font-weight: Bold;
-	font-size: 16px;
+	font-size: 15px;
 	opacity: 1;
 	text-align: left;
   }

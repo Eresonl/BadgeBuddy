@@ -40,7 +40,7 @@ body {
   left: 0px;
   overflow: hidden;
 }
-.v9_8 {
+.linhaemailogin {
   width: 318px;
   height: 45px;
   background: url("../images/v9_8.png");
@@ -58,7 +58,7 @@ body {
   border-bottom-right-radius: 4px;
   overflow: hidden;
 }
-.v9_9 {
+.formaboxemailogin {
   width: 89px;
   color: rgba(255,255,255,1);
   position: absolute;
@@ -70,7 +70,7 @@ body {
   opacity: 1;
   text-align: center;
 }
-.v9_10 {
+.boxemailogin {
   width: 21px;
   height: 20px;
   background: rgba(255,255,255,1);
@@ -143,7 +143,7 @@ body {
   opacity: 1;
   text-align: center;
 }
-.v9_16 {
+.boxloginsenha {
   width: 21px;
   height: 20px;
   background: rgba(255,255,255,1);
