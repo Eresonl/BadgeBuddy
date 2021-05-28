@@ -203,7 +203,7 @@ body {
   text-align: left;
 }
 .aboxcontact {
-  width: 418px;
+  width: 700px;
   height: 135px;
   background: url("../images/v0_23.png");
   background-repeat: no-repeat;
@@ -216,7 +216,7 @@ body {
   overflow: hidden;
 }
 .boxcontact {
-  width: 418px;
+  width: 700px;
   height: 135px;
   background: rgba(224,224,224,1);
   padding: 7px 18px;
@@ -232,19 +232,19 @@ body {
   overflow: hidden;
 }
 .textcontact {
-  width: 125px;
+  width: 300px;
   color: rgba(0,0,0,1);
   position: absolute;
   top: 49px;
-  left: 147px;
+  left: 300px;
   font-family: Roboto;
   font-weight: Regular;
-  font-size: 14px;
+  font-size: 20px;
   opacity: 1;
   text-align: left;
 }
 .aboxdescricao {
-  width: 100%;
+  width: 85%;
   height: 154px;
   background: url("../images/v0_26.png");
   background-repeat: no-repeat;
@@ -276,11 +276,11 @@ body {
   width: 125px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 59px;
-  left: 546px;
+  top: 60px;
+  left: 715px;
   font-family: Roboto;
   font-weight: Regular;
-  font-size: 14px;
+  font-size: 20px;
   opacity: 1;
   text-align: left;
 }
@@ -507,4 +507,3 @@ body {
   opacity: 1;
   text-align: left;
 }
-ponto
