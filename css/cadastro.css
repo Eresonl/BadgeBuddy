@@ -357,7 +357,7 @@ body {
   border-bottom-right-radius: 6px;
   overflow: hidden;
 }
-.v0_35 {
+.writeemail {
   width: 120px;
   color: rgba(133,145,165,1);
   position: absolute;
@@ -369,7 +369,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v0_36 {
+.putemail {
   width: 41px;
   color: rgba(0,2,7,1);
   position: relative;
@@ -548,7 +548,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v0_50 {
+.boxemail{
   width: 426px;
   height: 97px;
   background: url("../images/v0_50.png");
@@ -561,7 +561,7 @@ body {
   left: 544px;
   overflow: hidden;
 }
-.v0_51 {
+.emailtext {
   width: 426px;
   height: 64px;
   background: url("../images/v0_51.png");
