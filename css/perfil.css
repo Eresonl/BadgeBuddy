@@ -4,7 +4,7 @@
 body {
   font-size: 14px;
 }
-.v0_6 {
+.pagperfil {
   width: 100%;
   height: 1024px;
   background: rgba(55,86,146,1);
@@ -14,7 +14,7 @@ body {
   left: 0px;
   overflow: hidden;
 }
-.v0_7 {
+.pagtotal {
   width: 100%;
   height: 877px;
   background: rgba(255,255,255,1);
@@ -25,7 +25,7 @@ body {
   border: 1px solid rgba(0,0,0,0);
   overflow: hidden;
 }
-.v0_8 {
+.selecsaldo {
   width: 22px;
   height: 22px;
   background: rgba(255,255,255,1);
@@ -35,7 +35,7 @@ body {
   left: 640px;
   border-radius: 50%;
 }
-.v0_9 {
+.textbadges {
   width: 150px;
   color: rgba(0,0,0,1);
   position: absolute;
@@ -47,7 +47,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v0_10 {
+.aboxnome {
   width: 533px;
   height: 51px;
   background: url("../images/v0_10.png");
@@ -60,7 +60,7 @@ body {
   left: 359px;
   overflow: hidden;
 }
-.v0_11 {
+.boxnome {
   width: 533px;
   height: 51px;
   background: rgba(224,224,224,1);
@@ -76,7 +76,7 @@ body {
   border-bottom-right-radius: 5px;
   overflow: hidden;
 }
-.v0_12 {
+.textnome {
   width: 360px;
   color: rgba(51,51,51,1);
   position: absolute;
@@ -88,7 +88,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v0_13 {
+.aboxdata {
   width: 183px;
   height: 27px;
   background: url("../images/v0_13.png");
@@ -101,7 +101,7 @@ body {
   left: 86px;
   overflow: hidden;
 }
-.v0_14 {
+.boxdata {
   width: 183px;
   height: 27px;
   background: rgba(224,224,224,1);
@@ -117,7 +117,7 @@ body {
   border-bottom-right-radius: 5px;
   overflow: hidden;
 }
-.v0_15 {
+.textbdata {
   width: 169px;
   color: rgba(51,51,51,1);
   position: absolute;
@@ -129,7 +129,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v0_16 {
+.aboxusuario {
   width: 320px;
   height: 27px;
   background: url("../images/v0_16.png");
@@ -142,7 +142,7 @@ body {
   left: 287px;
   overflow: hidden;
 }
-.v0_17 {
+.boxusuario {
   width: 320px;
   height: 27px;
   background: rgba(224,224,224,1);
@@ -158,10 +158,10 @@ body {
   border-bottom-right-radius: 5px;
   overflow: hidden;
 }
-.name {
+.textbusuario {
   color: #fff;
 }
-.v0_20 {
+.aboxmoviment {
   width: 100%;
   height: 198px;
   background: url("../images/v0_20.png");
@@ -174,7 +174,7 @@ body {
   left: 89px;
   overflow: hidden;
 }
-.v0_21 {
+.boxmoviment {
   width: 100%;
   height: 198px;
   background: rgba(224,224,224,1);
@@ -190,7 +190,7 @@ body {
   border-bottom-right-radius: 5px;
   overflow: hidden;
 }
-.v0_22 {
+.textmoviment {
   width: 125px;
   color: rgba(0,0,0,1);
   position: absolute;
@@ -202,7 +202,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v0_23 {
+.aboxcontact {
   width: 418px;
   height: 135px;
   background: url("../images/v0_23.png");
@@ -215,7 +215,7 @@ body {
   left: 86px;
   overflow: hidden;
 }
-.v0_24 {
+.boxcontact {
   width: 418px;
   height: 135px;
   background: rgba(224,224,224,1);
@@ -231,7 +231,7 @@ body {
   border-bottom-right-radius: 5px;
   overflow: hidden;
 }
-.v0_25 {
+.textcontact {
   width: 125px;
   color: rgba(0,0,0,1);
   position: absolute;
@@ -243,7 +243,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v0_26 {
+.aboxdescricao {
   width: 100%;
   height: 154px;
   background: url("../images/v0_26.png");
@@ -256,7 +256,7 @@ body {
   left: 86px;
   overflow: hidden;
 }
-.v0_27 {
+.boxdescricao {
   width: 100%;
   height: 154px;
   background: rgba(224,224,224,1);
@@ -272,7 +272,7 @@ body {
   border-bottom-right-radius: 5px;
   overflow: hidden;
 }
-.v0_28 {
+.textdescricao {
   width: 125px;
   color: rgba(0,0,0,1);
   position: absolute;
@@ -284,7 +284,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v0_29 {
+.aboxposrank {
   width: 333px;
   height: 70px;
   background: url("../images/v0_29.png");
@@ -297,7 +297,7 @@ body {
   left: 489px;
   overflow: hidden;
 }
-.v0_30 {
+.boxposrank {
   width: 333px;
   height: 70px;
   background: rgba(242,233,30,1);
@@ -313,7 +313,7 @@ body {
   border-bottom-right-radius: 5px;
   overflow: hidden;
 }
-.v0_31 {
+.textposrank {
   width: 223px;
   color: rgba(51,51,51,1);
   position: absolute;
@@ -325,7 +325,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v0_32 {
+.arealogposrank {
   width: 88px;
   height: 56px;
   background: url("../images/v0_32.png");
@@ -338,7 +338,7 @@ body {
   left: 238px;
   overflow: hidden;
 }
-.v0_33 {
+.aboxarea {
   width: 532px;
   height: 51px;
   background: url("../images/v0_33.png");
@@ -351,7 +351,7 @@ body {
   left: 359px;
   overflow: hidden;
 }
-.v0_34 {
+.boxarea {
   width: 532px;
   height: 51px;
   background: rgba(224,224,224,1);
@@ -367,7 +367,7 @@ body {
   border-bottom-right-radius: 5px;
   overflow: hidden;
 }
-.v0_35 {
+.textarea {
   width: 360px;
   color: rgba(51,51,51,1);
   position: absolute;
@@ -379,7 +379,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v0_36 {
+.boxareaselecao {
   width: 22px;
   height: 22px;
   background: rgba(255,255,255,1);
@@ -389,7 +389,7 @@ body {
   left: 611px;
   border-radius: 50%;
 }
-.v0_37 {
+.pontdeselecao {
   width: 15px;
   height: 15px;
   background: rgba(0,0,0,1);
@@ -399,7 +399,7 @@ body {
   left: 614px;
   border-radius: 50%;
 }
-.v0_38 {
+.textsaldo {
   width: 150px;
   color: rgba(0,0,0,1);
   position: absolute;
@@ -411,7 +411,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v0_39 {
+.textposicao {
   width: 204px;
   color: rgba(0,0,0,1);
   position: absolute;
@@ -423,7 +423,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v0_40 {
+.textcolocao {
   width: 163px;
   color: rgba(0,0,0,1);
   position: absolute;
@@ -435,7 +435,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v0_41 {
+.afotperfil {
   width: 236px;
   height: 256px;
   background: url("../images/v0_41.png");
@@ -448,7 +448,7 @@ body {
   left: 95px;
   overflow: hidden;
 }
-.v0_42 {
+.afotperfil2 {
   width: 236px;
   height: 256px;
   background: rgba(196,196,196,1);
@@ -458,7 +458,7 @@ body {
   left: 0px;
   border-radius: 50%;
 }
-.v0_43 {
+.afotperfil3 {
   width: 236px;
   height: 215px;
   background: url("../images/v0_43.png");
@@ -471,7 +471,7 @@ body {
   left: 0px;
   overflow: hidden;
 }
-.v0_63 {
+.tesqsenha {
   width: 112px;
   color: rgba(44,82,130,1);
   position: absolute;
@@ -483,7 +483,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v0_64 {
+.textosenha {
   width: 112px;
   color: rgba(44,82,130,1);
   position: absolute;
@@ -495,7 +495,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v0_65 {
+.textofoto {
   width: 71px;
   color: rgba(44,82,130,1);
   position: absolute;
@@ -507,3 +507,4 @@ body {
   opacity: 1;
   text-align: left;
 }
+ponto
