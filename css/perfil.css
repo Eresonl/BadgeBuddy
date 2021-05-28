@@ -15,7 +15,7 @@ body {
   overflow: hidden;
 }
 .pagtotal {
-  width: 100%;
+  width: 1200px;
   height: 877px;
   background: rgba(255,255,255,1);
   opacity: 1;
@@ -175,7 +175,7 @@ body {
   overflow: hidden;
 }
 .boxmoviment {
-  width: 100%;
+  width: 900px;
   height: 198px;
   background: rgba(224,224,224,1);
   padding: 7px 18px;
@@ -257,7 +257,7 @@ body {
   overflow: hidden;
 }
 .boxdescricao {
-  width: 100%;
+  width: 900px;
   height: 154px;
   background: rgba(224,224,224,1);
   padding: 7px 18px;
@@ -507,4 +507,3 @@ body {
   opacity: 1;
   text-align: left;
 }
-ponto
