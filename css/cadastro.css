@@ -591,7 +591,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v0_53 {
+.textemail {
   width: 41px;
   color: rgba(0,2,7,1);
   position: relative;
@@ -633,7 +633,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v0_56 {
+.senhatext {
   width: 48px;
   color: rgba(0,4,11,1);
   position: absolute;
@@ -645,7 +645,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v0_57 {
+.cadeado {
   width: 24px;
   height: 19px;
   background: rgba(215,220,229,1);
@@ -654,7 +654,7 @@ body {
   top: 397px;
   left: 168px;
 }
-.v0_58 {
+.bigbox {
   width: 426px;
   height: 111px;
   background: url("../images/v0_58.png");
@@ -685,7 +685,7 @@ body {
   border-bottom-right-radius: 6px;
   overflow: hidden;
 }
-.v0_60 {
+.writename {
   width: 40px;
   color: rgba(133,145,165,1);
   position: absolute;
