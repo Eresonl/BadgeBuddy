@@ -542,15 +542,19 @@ body {
 }
 .dropdown {
   background: rgba(224,224,224,1);
+font-size: 12px;
   
 
   }
 
 .choosebox {
-
+font-size: 10px;
   }
 
 .card {
-
+  background: rgba(224,224,224,1);
+  font-size: 12px;
+  font: roboto;
+  
   
 }
