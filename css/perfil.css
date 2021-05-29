@@ -540,36 +540,7 @@ body {
       border-bottom-right-radius: 5px;
       overflow: hidden; 
 }
-.chooseuser {
-  background: rgba(224,224,224,1);
-font-size: 32px;
-display: block;
-width: 25%;
-height:50%;
-  
-  }
 
-.choosedata {
-font-size: 20px;
-display: block;
-width: 25%;
-  }
 
-.card2 {
-  width: 90%;
-  height:30%;
-  background: rgba(224,224,224,1);
-  padding: 7px 7px;
-  margin: 8px;
-  opacity: 1;
-  position: absolute;
-  top: 10px;
-  left: 0px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  overflow: hidden; 
-  font-size: 20px;
   
 }
