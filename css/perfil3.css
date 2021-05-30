@@ -25,6 +25,26 @@ font-size: 20px;
 display: inline-block;
   }
 
+.choosedata {
+    width: 90%;
+    height:30%;
+    background-color: #E0E0E0;
+    padding: 7px 7px;
+    margin: 5%;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow: hidden; 
+    font-size: 20px;
+    display: inline-block;
+
+}
+
 
  .card2 {
   width: 90%;
@@ -43,12 +63,10 @@ display: inline-block;
   overflow: hidden; 
   font-size: 20px;
   display: inline-block;
+
 }
-.p2{
-    color: red;
-}
-.p4{ 
-color: green;
+.p{ 
+color: rgb(114, 119, 114);
 }
 .h1 {font-size: 28px;
 }
