@@ -1,11 +1,5 @@
-.wrapper {
-  display: grid;
-  grid-template-columns: 250px 1 fr;
-  grid-template-rows: 150px 1 fr 120px;
-  grid-template-areas: "choosedata chooseuser choosecoins"
-                      "card2";
-  grid-gap:5px 10px
-}
+
+.card
 
 .choosecoins{
 font-size: 18px;
@@ -27,25 +21,23 @@ border-top-left-radius: 5px;
 border-top-right-radius: 5px;
 border-bottom-left-radius: 5px;
 border-bottom-right-radius: 5px;
-overflow: hidden; 
 font-size: 20px;
 display: inline-block;
+background-color: grey;
   }
 
 .choosedata {
     width: 90%;
     height:30%;
-    background-color: #E0E0E0;
+    background-color: grey;
     padding: 7px 7px;
     margin: 5%;
     opacity: 1;
-    position: absolute;
     top: 10px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    overflow: hidden; 
     font-size: 20px;
     display: inline-block;
 
@@ -59,14 +51,12 @@ display: inline-block;
   padding: 7px 7px;
   margin: 5%;
   opacity: 1;
-  position: absolute;
   top: 10px;
   left: 0px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  overflow: hidden; 
   font-size: 20px;
   display: inline-block;
 
