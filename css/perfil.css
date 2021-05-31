@@ -506,5 +506,38 @@ body {
   font-size: 14px;
   opacity: 1;
   text-align: left;
-  ponto
 }
+
+
+.testbox {
+  margin: 20px auto;
+  width: 343px; 
+  height: 464px; 
+  -webkit-border-radius: 8px/7px; 
+  -moz-border-radius: 8px/7px; 
+  border-radius: 8px/7px; 
+  background-color: #ebebeb; 
+  -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+  -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+  box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+  border: solid 1px #cbc9c9;
+
+     
+    }
+.card {
+      width: 25%;
+      height: 27px;
+      background: rgba(224,224,224,1);
+      padding: 7px 18px;
+      margin: 8px;
+      opacity: 1;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      overflow: hidden; 
+}
+
