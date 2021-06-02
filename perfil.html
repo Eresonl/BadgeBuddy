@@ -64,14 +64,26 @@
 
                     </div>
                 </div>
-                <form action="/action_page.php">
-                    <label for="w3review"></label>
-                    <textarea id="w3review" name="w3review" rows="4" cols="50">
-            Escreva aqui sobre voce
-              </textarea>
-                    <br><br>
-                    <input type="submit" value="Enviar">
-                </form>
+
+
+                <style>
+                    .comment {
+                      width: 100%;
+                      height: 100px;
+                      padding: 10px;
+                      background-color: #92999e;
+                      font: 1.4em/1.6em roboto;
+                      color: #000000;
+                    }
+                  </style>
+                </head>
+                <body>
+                  <form action="/form/submit" method="POST">
+                    <textarea class="comment"> Faça seu comentário aqui.</textarea>
+                    <br>
+                    <input type="submit" name="submit" value="Send">
+                  </form>
+
 
                 <div class="chooseuser">
                     <label for="usuario"> Procurar Buddy:</Label>
