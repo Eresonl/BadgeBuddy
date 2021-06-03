@@ -82,15 +82,33 @@
 	font-size: 38px;
 	font-family: roboto;
 	text-align: center;	
+	text-emphasis-color: rgb(173, 14, 14);
   }
+
+  .textequipe {
+	color: white;
+	  font-family: roboto;
+	  text-align: center;	
+	  font-size: 28px;
+	  padding: 60px 100px;
+  }
+
   .textosobre{
   color: white;
 	font-family: roboto;
 	text-align: center;	
 	font-size: 28px;
-	padding: 45px 0;
-
+	padding: 60px 100px;
   }
+	.equipe {
+		color: white;
+		font-family: roboto;
+		text-align: center;	
+		font-size: 28px;
+		padding: 60px 100px;
+
+	}
+
   .inicio {
 	width: 47px;
 	color: rgba(0,0,0,1);

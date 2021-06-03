@@ -16,10 +16,9 @@
             <a href="contato.html"><span class="contato">Contato</span></a>
             <a href="sobre.html"><span class="sobre">Sobre</span></a>
             <a href="index.html"><span class="inicio">Inicio</span></a>
-            <a href="login.html"><span class="login">Login</span></a>
+            <a href="login.html"><span class="login">Entrar</span></a>
             <a href="perfil.html"><span class="perfil">Perfil</span></a>
             <div class="logo"></div>
-
 
 
         </div>
@@ -30,16 +29,11 @@
                         <img src="./images/Epitacio.jpg" alt="">
 
 
-
                         <div class="helpers-links">
                             <a href="">Alterar Senha </a>
                             <a href="">Alterar Foto </a>
-
-
-
                         </div>
                     </div>
-
 
 
                     <div class="user-input-info">
@@ -49,8 +43,6 @@
                         </div>
                         <div class="input-area">
                             <input name="user-area" type="text" placeholder="Área">
-
-
                         </div>
 
 
@@ -60,18 +52,28 @@
                             Posição no Ranking 3º
                         </h3>
 
-
-
                     </div>
                 </div>
-                <form action="/action_page.php">
-                    <label for="w3review"></label>
-                    <textarea id="w3review" name="w3review" rows="4" cols="50">
-            Escreva aqui sobre voce
-              </textarea>
-                    <br><br>
-                    <input type="submit" value="Enviar">
-                </form>
+
+
+                <style>
+                    .comment {
+                      width: 100%;
+                      height: 100px;
+                      padding: 10px;
+                      background-color: #92999e;
+                      font: 1.4em/1.6em roboto;
+                      color: #000000;
+                    }
+                  </style>
+                </head>
+                <body>
+                  <form action="/form/submit" method="POST">
+                    <textarea class="comment"> Faça seu comentário aqui.</textarea>
+                    <br>
+                    <input type="submit" name="submit" value="Enviar">
+                  </form>
+
 
                 <div class="chooseuser">
                     <label for="usuario"> Procurar Buddy:</Label>
@@ -100,8 +102,7 @@
 
                 <div class="card2">
                     <h1>Movimentações</h1>
-                    <p> Dia 25/05/2021
-                    <p>
+                    <p> Dia 25/05/2021  </p>
                     <p>Você deu 25 Badges para Eliseu Toledo</p>
                     <p>Dia 26/05/2021</p>
                     <p>Oba, você recebeu 120 Badges de Arhur Tavares</p>
