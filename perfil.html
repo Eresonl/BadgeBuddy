@@ -27,8 +27,6 @@
                 <div class="user-thumbnail">
                     <div class="user-img">
                         <img src="./images/Epitacio.jpg" alt="">
-
-
                         <div class="helpers-links">
                             <a href="">Alterar Senha </a>
                             <a href="">Alterar Foto </a>
@@ -49,7 +47,7 @@
                     </div>
                     <div class="rank-container">
                         <h3>
-                            Posição no Ranking 3º
+                            Posição no Ranking: 3º colocado
                         </h3>
 
                     </div>
@@ -77,16 +75,50 @@
 
                 <div class="chooseuser">
                     <label for="usuario"> Procurar Buddy:</Label>
-                    <select name="usuario">
+                    <select name="choosebadge">
                         <option value="busca">Procurar </option>
-                        <option value="JAVA">Java</option>
-                        <option value="HTML">HTML</option>
-                        <option value="CSS">CSS</option>
                         <option value="Adriana">Adriana</option>
                         <option value="Emerson">Emerson</Option>
                         <option value="Maykell">Maykell</option>
                         <option value="Luan">Luan</option>>
+                
                 </div>
+
+               
+                <div class="modal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                <h4>Avalie seu Buddy</h4>
+                            </div>
+
+                            <div class="modal-body">
+                                                          
+                                <div class="field">
+                                    <label for="nome">Buddy selecionado:</label>
+                                    <input type="text" id="nome" name="nome" placeholder="Digite o nome*" required>
+                        </div>
+                        
+                        <form>
+                                    Quantidade (entre 0 e 100): <input type="number" name="quantidade" min="0" max="100"required>    
+                         </form>    
+                           
+                           
+                        <div class="field">
+                            <label for="mensagem">O que achou?</label>
+                            <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+                                                </div>
+                                
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                                <button type="button" class="btn btn-primary">Salvar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
 
                 <div class="choosecoins">
                     <input type="radio" value="None" id="radioOne" name="account" checked />
@@ -94,11 +126,14 @@
                     <input type="radio" value="None" id="radioTwo" name="account" />
                     <label for="radioTwo" class="radio">Minhas Badges</label>
                 </div>
+
+
+                 
                 <div class="choosedata">
                     <label for="data"> Data:</Label>
                     <select name="Data">
                         <input value="data">dd/mm/yyyy</option>
-                </div>
+                    </div>
 
                 <div class="card2">
                     <h1>Movimentações</h1>
@@ -109,6 +144,15 @@
                     </p>
                 </div>
 
+
+
+
+
+
+
+
+
+
                 <form action="/action_page.php">
                     <label for="w3review"></label>
                     <textarea autofocus id="w3review" name="w3review" rows="4" cols="50">
@@ -117,6 +161,9 @@
                     <br><br>
                     <input type="submit" value="Enviar">
                 </form>
+
+
+              
 
             </div>
     </div>
