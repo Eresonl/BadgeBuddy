@@ -185,3 +185,27 @@ input[type=submit]{
     margin: 0 auto;
     text-align: center;
     border-radius: 15px;
+}
+  mymodal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    pointer-events: none;
+  }
+  modal:target {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  modal > div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 15px 20px;
+    background: #fff;
+  }
