@@ -78,7 +78,6 @@
                     <label for="chooseuser"> Procurar Buddy:</Label>
                         <input list="choosebadges" name="choosebadge" id="browser">
                         <datalist id="choosebadges">
-
                         <option value="Adriana">Adriana</option>
                         <option value="Emerson">Emerson</Option>
                         <option value="Maykell">Maykell</option>
@@ -88,38 +87,60 @@
                   </form>
                
 
-               
-                
-<a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Avaliar Buddy</a>
- <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-	<div class="modal-dialog">
-		<div class="modal-content">
-			<div class="modal-header">
-			<h4 class="modal-title" id="myModalLabel">Avaliar Buddy</h4>
-			</div>
-			<div class="modal-body">
-				<div class="field">
-                    <label for="nome">Buddy selecionado:</label>
-                    <input type="text" id="nome" name="nome" placeholder="Digite o nome*" required>
+                  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    
+                  <!-- Latest compiled and minified CSS -->
+                  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+                  
+                  <!-- Optional theme -->
+                  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+                  
+                  <!-- Latest compiled and minified JavaScript -->
+                  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+                  
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                    Avaliar Buddy
+                  </button>
+                  
+                  <!-- Modal -->
+                  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                          <h4 class="modal-title" id="myModalLabel"> Avaliar Buddy</h4>
+                        </div>
+                        <div class="modal-body">
+                         
+                            <div class="field">
+                    <input list="choosebadges" name="choosebadge" id="browser"required>
+                    <select id="choosebadges">
+                    <option value="Adriana">Adriana</option>
+                    <option value="Emerson">Emerson</Option>
+                    <option value="Maykell">Maykell</option>
+                    <option value="Luan">Luan</option>> 
                  </div>
-                 
-                 <form>Quantidade (entre 0 e 100): <input type="number" name="quantidade" min="0" max="100"required>    
-                  </form>    
-                    
-                    
+            
+                 <form>Quantas Badges vale pela colaboração do Buddy? (entre 0 e 100): <input type="number" name="quantidade" min="0" max="100"required>    
+                  </form>   
+         
+                                      
                  <div class="field">
                      <label for="mensagem">O que achou do Buddy?</label>
                      <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
                      </div>
-                         
-                     <div class="modal-footer">
-                         <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
-                         <button type="button" class="btn btn-primary">Enviar</button>
                      </div>
-                 </div>
-		</div><!-- /.modal-content -->
-	</div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
+                         
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Enviar</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>      
+                
 
 
                 <div class="choosecoins">
@@ -130,10 +151,9 @@
                 </div>
 
                 <div id="choosedata">
-                    <input type="text" class="form-control">
                     <label for="data"> Data:</Label>
                     <select name="Data">
-                        <input value="data">dd/mm/yyyy</option>
+                        <input value="data">dd/mm/yyyy
                     </div>
 
                 <div class="card2">
