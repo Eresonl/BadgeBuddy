@@ -59,7 +59,7 @@
                       width: 100%;
                       height: 100px;
                       padding: 10px;
-                      background-color: #92999e;
+                      background-color: #E0E0E0;
                       font: 1.4em/1.6em roboto;
                       color: #000000;
                     }
@@ -69,7 +69,7 @@
                   <form action="/form/submit" method="POST">
                     <textarea class="comment"> Faça seu comentário aqui.</textarea>
                     <br>
-                    <center><input type="submit" name="submit" value="Enviar"></center>
+                    <center><input type="submit" name="submit" value="Salvar página"></center>
                   </form>
 
 
@@ -97,15 +97,25 @@
                     </p>
                 </div>
 
-             <form action="/action_page.php">
-                    <label for="w3review"></label>
-                    <textarea autofocus id="w3review" name="w3review" rows="4" cols="50">
-                     Contato
-              </textarea>
-                    <br><br>
-                    <input type="submit" value="Enviar">
+                <style>
+                  .comment {
+                    width: 100%;
+                    height: 100px;
+                    padding: 10px;
+                    background-color: #E0E0E0;
+                    font: 1.4em/1.6em roboto;
+                    color: #000000;
+                  }
+                </style>
+              </head>
+              <body>
+                <form action="/form/submit" method="POST">
+                  <textarea class="comment"> Escreva suas possíveis formas de contato aqui.</textarea>
+                  <br>
+                  <center><input type="submit" name="submit" value="Salvar página"></center>
                 </form>
-            </div>
+
+
     </div>
 
     </main>
