@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <link href="./css/style.css" rel="stylesheet" />
+    <link href="./css/perfil2.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    
+
+    <title>Badge Buddy</title>
+</head>
+
+<body>
+
+    <div class="screen">
+        <div class="navbar">
+            <a href="contato.html"><span class="contato">Contato</span></a>
+            <a href="sobre.html"><span class="sobre">Sobre</span></a>
+            <a href="index.html"><span class="inicio">Inicio</span></a>
+            <a href="login.html"><span class="login">Entrar</span></a>
+            <a href="perfil.html"><span class="perfil">Perfil</span></a>
+            <div class="logo"></div>
+
+
+               
+                 <div class= modal>
+                                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                    Avaliar Buddy
+                  </button>
+                  
+                  <!-- Modal -->
+                  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                          <h4 class="modal-title" id="myModalLabel"> Avaliar Buddy</h4>
+                        </div>
+                     
+                    <div class="modal-body">
+                       
+                            <form action="/action_page.php" method="get">
+                                <label for="chooseuser"> Procurar Buddy:</Label>
+                                    <input list="choosebadges" name="choosebadge" id="browser">
+                                    <datalist id="choosebadges">
+                                    <option value="Adriana">Adriana</option>
+                                    <option value="Emerson">Emerson</Option>
+                                    <option value="Maykell">Maykell</option>
+                                    <option value="Luan">Luan</option>>
+                                </datalist>
+                                <input type="submit">
+                              </form>
+                    
+                         <div class="field">
+                          <label for="mensagem">Quantas Badges vale pela colaboração do Buddy? (entre 0 e 100):</label>
+                          <input type="number" name="quantidade" min="0" max="100"required> 
+                          </div>
+                                    
+                           <div class="field">
+                           <label for="mensagem">O que achou do Buddy?</label>
+                          <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">Enviar</button>
+                        </div>
+                        </div>
+                       </div>  
+                     </div> 
+                      
+           
+                </form>
+            </div>
+    </div>
+
+    </main>
+
+
+    </div>
+    </div>
+</body>
+
+</html>
