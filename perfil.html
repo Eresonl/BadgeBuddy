@@ -53,43 +53,41 @@
                     </div>
                 </div>
 
-
                 <style>
                     .comment {
                       width: 100%;
                       height: 100px;
                       padding: 10px;
                       background-color: #E0E0E0;
-                      font: 1.4em/1.6em roboto;
+                      font: 14px roboto;
                       color: #3d3b3b;
                     }
                   </style>
                 </head>
-                <body>
-                  <form action="/form/submit" method="POST">
-                    <textarea class="comment"> Faça seu comentário aqui.</textarea>
-                    <br>
                 
+                  <form action="/form/submit" method="POST">
+                    <textarea class="comment" type="text" placeholder="Faça seu comentário aqui."></textarea>
+                    <br>
+                 
+                 
+                    <div class=movimentações >
 
-                        <div class="choosecoins">
+                     <label id=movimentações>Minhas movimentações</label><br>
+
+                <div class="choosecoins">
                     <input type="radio" value="None" id="radioOne" name="account" checked />
                     <label for="radioOne" class="radio" chec>Saldo Badges Coins</label>
                     <input type="radio" value="None" id="radioTwo" name="account" />
                     <label for="radioTwo" class="radio">Minhas Badges</label>
-                </div>
+                   
+                    <label id="data"> Selecione uma data: </label>
+                   <input value="">
+                   </div>
 
-         <div id="choosedata">
-                    <label for="data"> Data:</Label>
-                    <select name="Data">
-                    <input value="data">dd/mm/yyyy
-                </div>
-
-
-                <div id=movimentações">Minhas movimentações</div>
-         <div class="card2">
+                    <div class="boardinfo">
                     <p>- Dia:25/05/2021  </p>
                     <p>Você deu 25 Badges para Eliseu Toledo</p>
-                    <p>- Dia:26/05/2021</p>
+                    <p>- Dia:25/05/2021</p>
                     <p>Opa, você recebeu 120 Badges de Arhur Tavares</p>
                     </p>
                 </div>
@@ -100,14 +98,14 @@
                     height: 100px;
                     padding: 10px;
                     background-color: #E0E0E0;
-                    font: 1.4em/1.6em roboto;
+                    font: 14px roboto;
                     color: #3d3b3b;
                   }
                 </style>
               </head>
-              <body>
+              
                 <form action="/form/submit" method="POST">
-                  <textarea class="comment"> Escreva suas possíveis formas de contato aqui (Ex telefone, Whatsapp, Telegram, GitHub).</textarea>
+                  <textarea class="comment"type="text" placeholder="Escreva suas possíveis formas de contato aqui (Ex telefone, Whatsapp, Telegram, GitHub)"></textarea>
                   <br>
                   <center><input type="submit" name="submit" value="Salvar"></center>
                 </form>
