@@ -53,112 +53,64 @@
                     </div>
                 </div>
 
-
                 <style>
                     .comment {
                       width: 100%;
                       height: 100px;
                       padding: 10px;
-                      background-color: #92999e;
-                      font: 1.4em/1.6em roboto;
-                      color: #000000;
+                      background-color: #E0E0E0;
+                      font: 14px roboto;
+                      color: #3d3b3b;
                     }
                   </style>
                 </head>
-                <body>
+                
                   <form action="/form/submit" method="POST">
-                    <textarea class="comment"> Faça seu comentário aqui.</textarea>
+                    <textarea class="comment" type="text" placeholder="Faça seu comentário aqui."></textarea>
                     <br>
-                    <center><input type="submit" name="submit" value="Enviar"></center>
-                  </form>
+                 
+                 
+                    <div class=movimentações >
 
+                     <label id=movimentações>Minhas movimentações</label><br>
 
-               
-                  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    
-                  <!-- Latest compiled and minified CSS -->
-                  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-                                 
-                  <!-- Latest compiled and minified JavaScript -->
-                  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-                  
-                  <!-- Button trigger modal -->
-                  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-                    Avaliar Buddy
-                  </button>
-                  
-                  <!-- Modal -->
-                  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                    <div class="modal-dialog" role="document">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                          <h4 class="modal-title" id="myModalLabel"> Avaliar Buddy</h4>
-                        </div>
-                     
-                    <div class="modal-body">
-                       
-                            <form action="/action_page.php" method="get">
-                                <label for="chooseuser"> Procurar Buddy:</Label>
-                                    <input list="choosebadges" name="choosebadge" id="browser">
-                                    <datalist id="choosebadges">
-                                    <option value="Adriana">Adriana</option>
-                                    <option value="Emerson">Emerson</Option>
-                                    <option value="Maykell">Maykell</option>
-                                    <option value="Luan">Luan</option>>
-                                </datalist>
-                                <input type="submit">
-                              </form>
-                    
-                         <div class="field">
-                          <label for="mensagem">Quantas Badges vale pela colaboração do Buddy? (entre 0 e 100):</label>
-                          <input type="number" name="quantidade" min="0" max="100"required> 
-                          </div>
-                                    
-                           <div class="field">
-                           <label for="mensagem">O que achou do Buddy?</label>
-                          <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
-                          </div>
-                        </div>
-                        <div class="modal-footer">
-                        <button type="button" class="btn btn-primary">Enviar</button>
-                        </div>
-                        </div>
-                       </div>  
-                     </div> 
-                      
-
-         <div class="choosecoins">
+                <div class="choosecoins">
                     <input type="radio" value="None" id="radioOne" name="account" checked />
                     <label for="radioOne" class="radio" chec>Saldo Badges Coins</label>
                     <input type="radio" value="None" id="radioTwo" name="account" />
                     <label for="radioTwo" class="radio">Minhas Badges</label>
-                </div>
+                   
+                    <label id="data"> Selecione uma data: </label>
+                   <input value="">
+                   </div>
 
-         <div id="choosedata">
-                    <label for="data"> Data:</Label>
-                    <select name="Data">
-                    <input value="data">dd/mm/yyyy
-                </div>
-
-         <div class="card2">
-             <label for="movimentações">Minhas movimentações</label>
+                    <div class="boardinfo">
                     <p>- Dia:25/05/2021  </p>
                     <p>Você deu 25 Badges para Eliseu Toledo</p>
-                    <p>- Dia:26/05/2021</p>
+                    <p>- Dia:25/05/2021</p>
                     <p>Opa, você recebeu 120 Badges de Arhur Tavares</p>
                     </p>
                 </div>
 
-             <form action="/action_page.php">
-                    <label for="w3review"></label>
-                    <textarea autofocus id="w3review" name="w3review" rows="4" cols="50">
-                     Contato
-              </textarea>
-                    <br><br>
-                    <input type="submit" value="Enviar">
+                <style>
+                  .comment {
+                    width: 100%;
+                    height: 100px;
+                    padding: 10px;
+                    background-color: #E0E0E0;
+                    font: 14px roboto;
+                    color: #3d3b3b;
+                  }
+                </style>
+              </head>
+              
+                <form action="/form/submit" method="POST">
+                  <textarea class="comment"type="text" placeholder="Escreva suas possíveis formas de contato aqui (Ex telefone, Whatsapp, Telegram, GitHub)"></textarea>
+                  <br>
+                  <center><input type="submit" name="submit" value="Salvar"></center>
                 </form>
-            </div>
+
+
     </div>
 
     </main>
