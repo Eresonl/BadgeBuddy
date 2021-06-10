@@ -229,6 +229,7 @@
   .container {
 	  width: 50%;
 	  margin: 0 auto;
+	  padding-top: 0 auto;
   }
   .form-contact {
 	  width: 100%;
