@@ -5,12 +5,12 @@
     padding:16px 0;
 }
 .card-form{
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.411);
     width: 100%;
     padding:16px ;
     }
 .screen{
-    background-color: rebeccapurple;
+    background: url("../images/v7_75_2.png");
 }
 .user-img{
     flex: 1;
