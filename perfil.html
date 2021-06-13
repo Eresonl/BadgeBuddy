@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 
 <head>
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
     <link href="./css/style.css" rel="stylesheet" />
     <link href="./css/perfil2.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <title>barra de rolagem</title>
+
 
     <title>Badge Buddy</title>
 </head>
@@ -66,23 +69,27 @@
                 </head>
                 
                   <form action="/form/submit" method="POST">
-                    <textarea class="comment" type="text" placeholder="Faça seu comentário aqui."></textarea>
+                    <textarea class="comment" type="text" placeholder="Quem sou eu:"></textarea>
                     <br>
                  
-                 
-                    <div class=movimentações >
-
-                     <label id=movimentações>Minhas movimentações</label><br>
-
-                <div class="choosecoins">
+                    <div class="movimentações">
+                      <h1>Minhas movimentações</h1>
+                      </div>
+                   
+                    <div class="choosecoins">
                     <input type="radio" value="None" id="radioOne" name="account" checked />
                     <label for="radioOne" class="radio" chec>Saldo Badges Coins</label>
                     <input type="radio" value="None" id="radioTwo" name="account" />
-                    <label for="radioTwo" class="radio">Minhas Badges</label>
+                    <label for="radioTwo" class="radio">Minhas Badges      
+                    <form action="/action_page.php">
+                      <label for="data">Selecione uma data:</label>
+                      <input type="date" id="birthday" name="birthday">
+                      <input type="submit">
+                    </form>
                    
-                    <label id="data"> Selecione uma data: </label>
-                   <input value="">
-                   </div>
+                  </div>
+                 
+
 
                     <div class="boardinfo">
                     <p>- Dia:25/05/2021  </p>
@@ -90,7 +97,7 @@
                     <p>- Dia:25/05/2021</p>
                     <p>Opa, você recebeu 120 Badges de Arhur Tavares</p>
                     </p>
-                </div>
+                   </div>
 
                 <style>
                   .comment {
