@@ -296,3 +296,11 @@
   .textodecontato {
 	  color: rgb(250, 243, 243);
   }
+  .comment {
+	width: 100%;
+	height: 100px;
+	padding: 10px;
+	background-color: #E0E0E0;
+	font: 14px roboto;
+	color: #3d3b3b;
+  }
