@@ -54,7 +54,7 @@
 	height: 44px;
 	background: #ffffff;
 	opacity: 1;
-	position: relative;
+	position: absolute;
 	top: 0px;
 	left: 0px;
 	overflow: hidden;
