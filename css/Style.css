@@ -326,3 +326,28 @@
 	font: 14px roboto;
 	color: #3d3b3b;
   }
+  .loja {
+    color: red;
+    font-family: roboto;	
+    font-size: 38px;
+    padding: 25px;
+    justify-content: space-between;
+}
+.fundoloja{
+	background-color: whitesmoke;
+    width: 90%;
+    height: 540px;
+	margin: 0 auto;
+	border-radius: 4px;
+}
+.mousepad {
+	width: 10%;
+	height: 10px;
+	padding: 6%;
+	border: 10px solid whitesmoke;
+	font-family: roboto;
+	color: red;
+	font-size: 15px;
+	background: url("/images/Mousepad.jpg");
+
+  }
