@@ -337,13 +337,13 @@
 .fundoloja{
 	background-color: whitesmoke;
     width: 95%;
-    height: 800px;
+    height: 850px;
 	margin: 0 auto;
 	border-radius: 4px;
 }
 .teclado {
 	width: 50%;
-	height: 10px;
+	height: 1px;
 	padding-left: 8%;
 	padding-bottom: 0 auto ;
 	border-radius: 4px;
@@ -355,28 +355,38 @@
 	}
 .img {
 	height: 10%;
-	width: 10%;
 	padding: 10%;
     padding-left: 9%;
+	display: flex;
+
 }
 .img2 {
 	height: 10%;
 	padding: 10%;
 	width: 10%;
     padding-left: 45%;
-	padding-top: 1%;
-	border-bottom: 80%;
-	float: ;
+    padding-top: 1px ;
+	float: center;
+	
 }
 .headphone {
-	width: 10%;
-	height: 10px;
-	padding-left: 45%;
-	justify-content: space-between;
-	border: 20px solid whitesmoke;
+	width: 50%;
+	height: 10%;
+	padding: 2%;
+	padding-left: 46%;
 	border-radius: 4px;
 	font-family: roboto;
 	color: red;
 	font-size: 15px;
     display: flex;
-	}
+		
+}
+.img3 {
+	height: 10%;
+	width: 10%;
+	padding-left: 50%;
+    padding-top: 1%;
+	padding-bottom: 20%;
+	float: top;
+	margin: 20px auto;
+}
