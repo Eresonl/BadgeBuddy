@@ -1,22 +1,27 @@
-var attempt = 3; // Variable to count number of attempts.
-// Below function Executes on click of login button.
-function validate(){
-var username = document.getElementById("text").value;
-var password = document.getElementById("pass").value;
-if ( username == "123" && password == "123"){
-alert ("Login successfully");
-window.location = "success.html"; // Redirecting to other page.
-return false;
-}
-else{
-attempt --;// Decrementing by one.
-alert("You have left "+attempt+" attempt;");
-// Disabling fields after 3 attempts.
-if( attempt == 0){
-document.getElementById("text").disabled = true;
-document.getElementById("pass").disabled = true;
-document.getElementById("buttonreg").disabled = true;
-return false;
-}
-}
-}
+    $(document).ready(function () {
+      $("#signup-form").submit(function () {
+        var nm1 = $("#name1").val();
+        var ps1 = $("#pass1").val();
+        localStorage.setItem("n1", nm1);
+        localStorage.setItem("p1", ps1);
+
+      });
+
+      $("#login-form").submit(function () {
+        var enteredName = $("#name2").val();
+        var enteredPass = $("#pass2").val();
+
+        var storedName = localStorage.getItem("n1");
+        var storedPass = localStorage.getItem("p1");
+
+        if (enteredName == storedName && enteredPass == storedPass) {
+            $(location).attr('href', 'http://stackoverflow.com')
+
+        }
+        else {
+          alert("Username and Password do not match!");
+        }
+
+      });
+
+    });
