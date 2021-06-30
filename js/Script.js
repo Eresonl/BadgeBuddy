@@ -15,11 +15,11 @@
         var storedPass = localStorage.getItem("p1");
 
         if (enteredName == storedName && enteredPass == storedPass) {
-            $(location).attr('href', 'http://stackoverflow.com')
+          alert("Logado com sucesso");  
 
         }
         else {
-          alert("Username and Password do not match!");
+          alert("Dados não encontrados");
         }
 
       });

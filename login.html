@@ -1,48 +1,52 @@
 <!DOCTYPE html>
-<html>
-<meta charset="utf-8"/>
 <head>
-  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-  <link href="./css/login.css" rel="stylesheet" />
-  <link href="./css/style.css" rel="stylesheet" />
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="./assets/css/bootstrap-responsive.css" rel="stylesheet">
-  <title>Badge Buddy</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
 
+  <link href="./css/login2.css" rel="stylesheet" />
+  <link href="./css/style.css" rel="stylesheet" />
+  <title>logSign</title>
 </head>
 
-  <body>
-    <div class="screencenterlogin">
-      <div class="testbox">
-        <h1>Badge Buddy</h1>
-
-        <form action="/">
-          <hr>
-          <div class="accounttype">
-          </div>
-          <hr>
-          <input type="text" name="name" id="name2" placeholder="Email" value="" required>
-          <input type="password" name="name" id="pass2" placeholder="Senha" value="" required>
-          <a href="Registrar.html" class="buttonreg">Registrar</a>
-          <a href="homelogin.html" class="buttonlogin">Entrar</a>
-          <div class="loginbutton"></div>
-        </form>
-      </div>
-
-    </div>
-  </div>
+<body>
 
   <div class="navbar">
     <a href="contato.html"><span class="contato">Contato</span></a>
     <a href="sobre.html"><span class="sobre">Sobre</span></a>
     <a href="index.html"><span class="inicio">Inicio</span></a>
     <a href="login.html"><span class="login">Entrar</span></a>
-    <div class="logo"></div>
+    <div class="logo"></div></div>
 
-    <script src="js/Script.js"></script>
+  <div class="main">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="login-card">
+                    <h2 class="text-center mb-4">Entrar</h2>
+                    <form id="login-form">
+                        <p>
+                            <label for="email">Email</label>
+                            <input id="name2" type="text" placeholder="Entre com seu Email" class="form-input" value="" required>
+                        </p>
+                        <p>
+                            <label for="password">Senha</label>
+                            <input id="pass2" type="password" placeholder="Senha" class="form-input" value="" required>
+                        </p>
+                        <input id="login_btn" type="submit" class="btn btn-primary" value="Login">
+                    </form>
+                </div>
+            </div>
 
+        </div>
+    </div>
+</div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+  <script src="js/Script.js"></script>
+  
+  
 </body>
 
 </html>
