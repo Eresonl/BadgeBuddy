@@ -7,7 +7,8 @@
 
       });
 
-      $("#login-form").submit(function () {
+      $("#login-form").submit(function (event) {
+        event.preventDefault()
         var enteredName = $("#name2").val();
         var enteredPass = $("#pass2").val();
 
@@ -16,7 +17,7 @@
 
         if (enteredName == storedName && enteredPass == storedPass) {
           alert("Logado com sucesso");  
-
+          window.location.href="/homelogin.html";
         }
         else {
           alert("Dados não encontrados");
