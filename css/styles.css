@@ -80,4 +80,20 @@
     opacity: 1;
     text-align: left;
   }
- 
+.modal {
+  width: 900px;
+    height: 154px;
+    background: rgba(224,224,224,1);
+    padding: 7px 18px;
+    margin: 8px;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+
+}

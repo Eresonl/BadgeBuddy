@@ -390,3 +390,24 @@
 	float: top;
 	margin: 20px auto;
 }
+.modalfade {
+	width: 90%;
+	 background-color: rgba(255, 255, 255, 0.74);
+	 padding: 25px;
+	margin: 90px  auto;
+	 	  position: relative;
+	  top: 200px;
+		border-top-left-radius: 5px;
+	  border-top-right-radius: 5px;
+	  border-bottom-left-radius: 5px;
+	  border-bottom-right-radius: 5px;
+	  
+}
+.pagetitle{
+	color: white;
+	font-family: roboto;
+	text-align: center;	
+	font-size: 20px;
+	padding:35px;
+	
+}
