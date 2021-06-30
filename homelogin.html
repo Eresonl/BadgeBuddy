@@ -7,7 +7,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <link rel="searchsheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    
+    <script>
+      function funcao1()
+      {
+      alert("Enviado com sucesso!");
+      }
+      </script>
     
     <title>Badge Buddy</title>
 </head>
@@ -16,7 +21,7 @@
     <div class="screen">
         <div class="screencenter2">
         <h1 class="pagetitle">
-        Olá, que bom que chegou!</h1>
+        Olá, que bom que você está aqui!</h1>
      
 
       
@@ -59,7 +64,7 @@
                 <option value="Maykell">Maykell</option>
                 <option value="Luan">Luan</option>>
                 </datalist>
-                <input type="submit">
+                
                 </form>
                 </div>
 
@@ -75,12 +80,12 @@
                 </div>
              
               <div class="modal-footer">
-              <button type="button" class="btn btn-primary">Enviar</button>
+                <input type="button" onclick="funcao1()" value="Enviar" />
                </div>
               </div>
              </div>  
            </div>        
-
+           
 </body>
 
 </html>
