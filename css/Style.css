@@ -353,6 +353,7 @@
 	font-size: 15px;
     display: flex;
 	}
+
 .img {
 	height: 10%;
 	padding: 10%;
@@ -393,30 +394,32 @@
 .modalfade {
 	width: 90%;
 	 background-color: rgba(255, 255, 255, 0.74);
-	 padding: 50px;
-	margin: 90px  auto;
-	 	  position: relative;
-	  top: 400px;
-		border-top-left-radius: 5px;
-	  border-top-right-radius: 5px;
-	  border-bottom-left-radius: 5px;
-	  border-bottom-right-radius: 5px;
+	 padding: 20px;
+	margin: auto;
+	 position: relative;
+	  top: 200px;
+	 border-top-left-radius: 2px;
+	  border-top-right-radius: 2px;
+	  border-bottom-left-radius: 2px;
+	  border-bottom-right-radius: 2px;
 	  font-family: roboto;
-	  font-size: 15px;
-	  
-	  
-}
+	  font-size: 20px;
+	  line-height: 2;
+	  }
 .pagetitle{
 	color: white;
 	font-family: roboto;
-	text-align: left;	
+	text-align: center;	
 	font-size: 30px;
-	padding:35px;
-	
+	padding:40x;
+
+	}
+
+.modal-title{
+	font-size: 25px;
+	text-align: center;	
+	color: rgb(121, 4, 4);
+	margin: 20px;
+
 }
 
-.user-img{
-    flex: 1;
-    padding: 2px;
-    text-align: left;
-}
