@@ -423,3 +423,16 @@
 
 }
 
+.loja{
+	width: 47px;
+	color: rgba(165,161,161,1);
+	position: absolute;
+	top: -12px;
+	left: 445px;
+	font-family: Roboto;
+	font-weight: Regular;
+	font-size: 18px;
+	opacity: 1;
+	text-align: left;
+	text-decoration: none;
+  }
